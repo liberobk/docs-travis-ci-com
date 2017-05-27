@@ -7,7 +7,6 @@ python:
 branches:
   only:
   - gh-pages
-  - ha-webhook-payload-auto
 env:
   global:
     - PATH=$HOME/.local/user/bin:$PATH
@@ -25,7 +24,6 @@ deploy:
   on:
     branch:
     - gh-pages
-    - ha-webhook-payload-auto
 notifications:
   slack:
     rooms:
